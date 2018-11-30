@@ -11,8 +11,8 @@
 ### Requirements
 1. gcc (Compiler)
 	*	Windows [Scoop](https://scoop.sh) or [Chocolate](https://chocolatey.org/)
-		-	scoop install gcc
-		-	choco install gcc
+		-	<code>scoop install gcc</code>
+		-	<code>choco install gcc</code>
 	*	Linux : <code>apt-get install gcc</code>
 	*	Mac : <code>brew install gcc</code>
 2. IDE (CodeBlocks)
