@@ -1,7 +1,7 @@
 # Simple Console Calculator using C
 
 ## Installation
-### See Requirements Below before proceeding to installation.
+> See Requirements Below before proceeding to installation.
 1. <code>git clone https://github.com/mboy1011/C_ConsoleCalc.git</code>
 2. <code>cd C_ConsoleCalc</code>
 3. <code>gcc -o Calc Calc.c</code>
