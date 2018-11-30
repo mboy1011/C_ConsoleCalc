@@ -15,7 +15,7 @@
 		-	<code>choco install gcc</code>
 	*	Linux : <code>apt-get install gcc</code>
 	*	Mac : <code>brew install gcc</code>
-2. IDE (CodeBlocks)
+2. IDE ([CodeBlocks](http://www.codeblocks.org/downloads))
 
 
 [![Compatibility](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/mboy1011/C_ConsoleCalc.git)
