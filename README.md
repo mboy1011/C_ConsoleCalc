@@ -1,16 +1,18 @@
 # Simple Console Calculator using C
 
-
 ## Installation
-1. git clone https://github.com/mboy1011/C_ConsoleCalc.git
-2. cd C_ConsoleCalc
-3. gcc -o Calc Calc.c
-4. ./Calc
+### See Requirements Below before proceeding to installation.
+1. <code>git clone https://github.com/mboy1011/C_ConsoleCalc.git</code>
+2. <code>cd C_ConsoleCalc</code>
+3. <code>gcc -o Calc Calc.c</code>
+4. <code>./Calc</code>
 
 
 ### Requirements
 1. gcc (Compiler)
-	*	Windows [Scoop](https://scoop.sh)
+	*	Windows [Scoop](https://scoop.sh) or [Chocolate](https://chocolatey.org/)
+		-	scoop install gcc
+		-	choco install gcc
 	*	Linux : <code>apt-get install gcc</code>
 	*	Mac : <code>brew install gcc</code>
 2. IDE (CodeBlocks)
