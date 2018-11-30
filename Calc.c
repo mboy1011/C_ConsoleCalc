@@ -15,37 +15,43 @@ int add(int a, int b);
 int input(int c);
 
 int main(){
-	int c,res;
-	printf("+==============+\n");
-	printf("|  Calculator  |\n");
-	printf("|    1. Add    |\n");
-	printf("|    2. Sub    |\n");
-	printf("|    3. Mul    |\n");
-	printf("|    4. Div    |\n");
-	printf("+==============+\n");
-	printf("Choose: ");
-	scanf("%d",&c);
-	switch(c){
-		case 1:
-			res = input(1);		
-			printf("Result: %d\n",res);
-			break;
-		case 2:
-			res = input(2);
-			printf("Result: %d\n",res);
-			break;
-		case 3:
-			res = input(3);
-			printf("Result: %d\n",res);
-			break;
-		case 4: 
-			res = input(3);
-			printf("Result: %d\n",res);
-			break;
-		default:
-			printf("Invalid Choice!");
-			return(0);
-	}
+	char lp;
+	do{
+		int c,res;
+		printf("+==============+\n");
+		printf("|  Calculator  |\n");
+		printf("|    1. Add    |\n");
+		printf("|    2. Sub    |\n");
+		printf("|    3. Mul    |\n");
+		printf("|    4. Div    |\n");
+		printf("+==============+\n");
+		printf("Choose: ");
+		scanf("%d",&c);
+		switch(c){
+			case 1:
+				res = input(1);		
+				printf("Result: %d\n",res);
+				break;
+			case 2:
+				res = input(2);
+				printf("Result: %d\n",res);
+				break;
+			case 3:
+				res = input(3);
+				printf("Result: %d\n",res);
+				break;
+			case 4: 
+				res = input(4);
+				printf("Result: %d\n",res);
+				break;
+			default:
+				printf("Invalid Choice!\n");
+				break;
+		}	
+	printf("Do you want to try again? [Y/n] ");
+	scanf(" %c",&lp); // PUT whitespace before if you are using Characters unlike all the others.
+	printf("\n");
+	}while(lp == 'Y' || lp == 'y');
 }
 
 int input(int c){
