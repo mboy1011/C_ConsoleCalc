@@ -6,17 +6,12 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-
-/* Declared Function */
-int mul(int a, int b);
-int sub(int a, int b);
-int qot(int a, int b);
-int add(int a, int b);
-int input(int c);
+#include "calc.h"
 
 int main(){
 	char lp;
 	do{
+		system("cls");
 		int c,res;
 		printf("+==============+\n");
 		printf("|  Calculator  |\n");
@@ -24,6 +19,7 @@ int main(){
 		printf("|    2. Sub    |\n");
 		printf("|    3. Mul    |\n");
 		printf("|    4. Div    |\n");
+		printf("|    5. Exit   |\n");
 		printf("+==============+\n");
 		printf("Choose: ");
 		scanf("%d",&c);
@@ -43,6 +39,9 @@ int main(){
 			case 4: 
 				res = input(4);
 				printf("Result: %d\n",res);
+				break;
+			case 5:
+				exit(0);
 				break;
 			default:
 				printf("Invalid Choice!\n");
